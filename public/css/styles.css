@@ -84,7 +84,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background: url("../assets/paper.jpg");
+  background: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -7913,7 +7913,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background: url("../assets/fondo.jpg") repeat-x !important;
+  background: linear-gradient(to right, #539C43, #63AD61, #A4CC82);
 }
 
 .bg-secondary {
@@ -7948,7 +7948,7 @@ textarea.form-control-lg {
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background: url("../assets/negro.png") repeat-x !important;
+  background: black;
 }
 
 .bg-black {
