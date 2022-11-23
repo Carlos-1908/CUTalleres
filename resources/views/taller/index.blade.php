@@ -17,6 +17,7 @@
                             </span>
 
                              <div class="float-right">
+                             <a class="btn btn-sm btn-primary " href="{{ url('/home') }}"><i class="fa fa-fw fa-eye"></i> Alumnos Registrados</a>
                                 <a href="{{ route('tallers.create') }}" class="btn btn-primary btn-sm float-right"  data-placement="left">
                                   {{ __('Crear Nuevo') }}
                                 </a>

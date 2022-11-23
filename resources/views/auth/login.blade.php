@@ -8,7 +8,7 @@
                 <div class="card-header">{{ __('Iniciar Sesion') }}</div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('login') }}">
+                    <form method="POST" action="{{ route('login') }}" href="{{ route('tallers.index') }}">
                         @csrf
 
                         <div class="row mb-3">
@@ -54,7 +54,7 @@
                         <div class="row mb-0">
                             <div class="col-md-8 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
-                                    {{ __('Inicar Sesion') }}
+                                    {{ __('Iniciar Sesion') }}
                                 </button>
 
                                 @if (Route::has('password.request'))
