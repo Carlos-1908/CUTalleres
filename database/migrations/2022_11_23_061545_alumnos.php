@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('carrera');
             $table->string('correo');
             $table->string('telefono');
+            $table->string('taller');
             $table->timestamps();
         });
     }
