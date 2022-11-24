@@ -35,15 +35,18 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-sm-12">
-                        <div class="card">
-                            <div class="card-header">{{ __('Talleres') }}</div>
+                        <div class="card text-center">
+                        <h5 class="card-header">Talleres</h5>
                                 <div class="card-body">
-                                    <table border="1" class="table">
+                                    <table>
                                         <thead>
+                                            <tr>
                                             <th> Nombre del taller </th>
                                             <th> Nombre del profesor </th>
                                             <th> Correo del profesor</th>
-                                            <th> Descripcion</th>   
+                                            <th> Descripcion</th>  
+                                            <th></th> 
+                                            </tr>
                                         </thead>
                                         <tbody>
                                         @foreach($Taller as $Talleres)
@@ -66,7 +69,8 @@
         </section>
 
         <!-- Footer-->
-        <footer class="py-5 bg-dark">
+        <footer class="py-5 bg-dark ">
+         
             <div class="container px-4">
                 <p class="text-center text-white">CENTRO UNIVERSITARIO DE TONALÁ</p>
                 <p class="text-center text-white">Campus CUTonalá Av. Nuevo Periférico No. 555 Ejido San José Tateposco, C.P. 45425, Tonalá Jalisco, México</p>
@@ -78,5 +82,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        
     </body>
 </html>
