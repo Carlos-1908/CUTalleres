@@ -7,10 +7,10 @@ use App\Models\Alumno;
 
 class DatosAlumnoController extends Controller
 {
-    public function index()
+    public function index(Request $request)
     {
     request()->validate(Alumno::$rules);
     Alumno::create($request->all());
     }
-    
+
 }
