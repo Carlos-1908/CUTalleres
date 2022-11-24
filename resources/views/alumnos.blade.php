@@ -52,7 +52,7 @@
                                         <td>{{$Talleres->nombre_profesor}}</td>
                                         <td>{{$Talleres->correo_profesor}}</td>
                                         <td>{{$Talleres->descripcion }}</td>
-                                        <td><a class="btn btn-success">{{ __('Registrarse') }}</a><br>
+                                        <td><a class="btn btn-success" href="{{ route('registro') }}">{{ __('Registrarse') }}</a><br>
                                         </tr>
                                         @endforeach
                                         </tbody>

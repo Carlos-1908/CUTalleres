@@ -175,7 +175,7 @@ abbr[data-bs-original-title] {
   position: relative;
   overflow: hidden;
   width: 100%;
-  height: calc( 300px + 3em);
+  height: auto;
 }
 .slide-open:checked + .slide-item {
   position: static;

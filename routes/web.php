@@ -21,5 +21,7 @@ Auth::routes();
 
 Route::resource('/tallers', App\Http\Controllers\TallerController::class);
 Route::get('/alumnos', [App\Http\Controllers\mostrarTalleresController::class, 'index'])->name('alumnos');
+Route::get('/registro', [App\Http\Controllers\RegistroController::class, 'index'])->name('registro');
+Route::post('/guardar', [App\Http\Controllers\RegistroController::class, 'guardar'])->name('guardar');
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
