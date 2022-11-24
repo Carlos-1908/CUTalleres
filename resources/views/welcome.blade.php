@@ -53,17 +53,18 @@
                     <input class="slide-open" type="radio" id="slide-1" 
                         name="slide" aria-hidden="true" hidden="" checked="checked">
                     <div class="slide-item">
-                        <img src="../../../assets/talleres.jpg">
+                        <div align="center"><img src="../../../assets/talleres.jpg"  width=50%
+     height=50vh ></div>
                     </div>
                     <input class="slide-open" type="radio" id="slide-2" 
                         name="slide" aria-hidden="true" hidden="">
                     <div class="slide-item">
-                        <img src="../../../assets/talleres3.jpg">
+                         <div align="center"><img src="../../../assets/talleres2.jpg"></div>
                     </div>
                     <input class="slide-open" type="radio" id="slide-3" 
                         name="slide" aria-hidden="true" hidden="">
                     <div class="slide-item">
-                        <img src="../../../assets/talleres2.jpg">
+                    <div align="center"><img src="../../../assets/talleres3.jpg"></div>
                     </div>
                     <label for="slide-3" class="slide-control prev control-1">‹</label>
                     <label for="slide-2" class="slide-control next control-1">›</label>
@@ -102,3 +103,5 @@
         </div>
     </body>
 </html>
+
+ 
