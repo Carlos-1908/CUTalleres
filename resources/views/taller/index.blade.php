@@ -5,6 +5,9 @@
 @endsection
 
 @section('content')
+<header>
+<link href="css/styles.css" rel="stylesheet" />
+</header>
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-12">
